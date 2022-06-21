@@ -1,5 +1,5 @@
 mpi:
-	mpic++ MPI_PSRS.cpp -o main
+	mpic++ main.cpp -o main
 	mpirun -np 8 ./main
 run: gen
 	./main

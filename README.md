@@ -1,2 +1,10 @@
-# MPI-PSRS
-MPI Parallel Sorting by Regular Sampling(PSRS), including principle and implementation [report](report.pdf), or see [my blog](https://blog.csdn.net/james_154_best/article/details/84332575).
+# scut作业
+- 用MPI实现PSRS
+# 主要文件
+- common.h：配置公共配置
+- generate.cpp：生成文件
+- main.cpp：mpi主程序
+# 运行方式
+- 见Makefile
+- make gen生成数据
+- make mpi启动mpi程序(np=common.h中的p值)
